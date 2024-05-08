@@ -55,3 +55,36 @@ This project enables seamless synchronization between Trello and Google Tasks, e
 - 🗂 Support for multiple boards and lists.
 - 🌐 Introduce multilingual support.
 - 📅 Integrate with calendars for task deadlines.
+
+## Requirements 📋
+- Python 3.6 or later
+- Libraries: `requests`, `requests_oauthlib`, `google-auth-oauthlib`
+
+## Usage Examples 💡
+```python
+# Authenticate with Trello
+```
+from auth.auth_trello import get_trello_oauth_session
+trello_session = get_trello_oauth_session()
+
+```# Authenticate with Google```
+from auth.auth_google import get_google_credentials
+google_credentials = get_google_credentials()
+
+```Fetch and synchronize tasks```
+from tasks.sync_tasks import synchronize_tasks
+synchronize_tasks(trello_session, google_credentials)
+
+## Setup and Installation Instructions 🚀
+Clone the repository:
+```git clone https://github.com/yourusername/trello-google-tasks-integration.git```
+
+Install required dependencies:
+```pip install -r requirements.txt```
+
+Configure API keys in config/settings.py.
+
+## Troubleshooting Tips 🔧
+- Double-check API key configurations if authentication fails.
+- Ensure stable internet connection for uninterrupted operations.
+- Refresh OAuth tokens periodically to avoid session expirations.
