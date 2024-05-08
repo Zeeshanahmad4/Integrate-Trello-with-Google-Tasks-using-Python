@@ -27,3 +27,31 @@
   <br />
   <strong>For discussion, queries, and freelance work. Do reach me.👆👆👆</strong>
 </div>
+
+
+- [🗺️ Project Overview](#project-overview-)
+- [✨ Features](#features-)
+   - [ To-Do Features](#to-do-features-)
+- [📋 Requirements](#requirements-)
+- [💡 Usage Examples](#usage-examples-)
+   - [🚀 Setup and Installation Instructions](#setup-and-installation-instructions-)
+- [🔧 Troubleshooting Tips](#troubleshooting-tips-)
+- [🤝 Contribution Guidelines](#contribution-guidelines-)
+
+
+## Project Overview 🗺️
+This project enables seamless synchronization between Trello and Google Tasks, enhancing task management across platforms. Using Python, it automates synchronization processes, helping users manage their tasks efficiently no matter the platform.
+
+## Features ✨
+- **OAuth2 Authentication**: Secure connection to Trello and Google Tasks.
+- **Task Fetching**: Retrieves tasks from specified Trello boards and Google Task lists.
+- **Bidirectional Synchronization**: Ensures tasks are synchronized between both platforms.
+- **Conflict Handling**: Resolves conflicts when a task is updated simultaneously on both platforms.
+- **Error Handling**: Implements robust error management to minimize disruptions.
+
+### To-Do Features 📌
+- 🔄 Implement real-time synchronization.
+- 📊 Add task analytics and reporting capabilities.
+- 🗂 Support for multiple boards and lists.
+- 🌐 Introduce multilingual support.
+- 📅 Integrate with calendars for task deadlines.
