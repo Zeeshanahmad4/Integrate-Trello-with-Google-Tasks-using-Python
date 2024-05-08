@@ -77,7 +77,7 @@ synchronize_tasks(trello_session, google_credentials)
 
 ## Setup and Installation Instructions 🚀
 Clone the repository:
-```git clone https://github.com/yourusername/trello-google-tasks-integration.git```
+```git clone https://github.com/Zeeshanahmad4/Integrate-Trello-with-Google-Tasks-using-Python```
 
 Install required dependencies:
 ```pip install -r requirements.txt```
@@ -88,3 +88,6 @@ Configure API keys in config/settings.py.
 - Double-check API key configurations if authentication fails.
 - Ensure stable internet connection for uninterrupted operations.
 - Refresh OAuth tokens periodically to avoid session expirations.
+
+## Contribution Guidelines 🤝
+We encourage contributions! Please open an issue first to discuss potential changes. Update tests as applicable.
